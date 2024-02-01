@@ -1,0 +1,101 @@
+:root{
+    --dark-violet: #240046;
+    --dark-green: #283618;
+    --light-violet: #3c096c;
+    --light-green: #70e000;
+    --font-style: Verdana;
+}
+body{
+    font-family: var(--font-style),sans-serif;
+    height: 1000vh;
+}
+.navbar{
+    top: 0;
+    position: sticky;
+    box-shadow: 0px 5px 8px #000;
+    background-color: var(--dark-violet);
+}
+.navbar-brand {
+    color: #fff;
+    font-size: 1.5rem;
+}
+.navbar-brand:hover{
+    color: var(--light-green);
+}
+.collapse a{
+    color: #fff;
+}
+.collapse a:hover{
+    color: var(--light-green);
+}
+.navbar .navbar-nav .nav-link.active{
+    color: var(--light-green);
+}
+.navbar .search {
+    border-bottom: 2px solid var(--light-green);
+    border-left: 2px solid var(--light-green);
+    margin: 5px;
+}
+.navbar .search svg {
+    color: var(--light-green);
+}
+.navbar .navbar-toggler{
+    color: #fff;
+    font-size: 22px;
+    border-radius: 10PX;
+    border: 3px solid;
+    border-color: #fff;
+}
+
+.landing img{
+
+    vertical-align: baseline;
+    width: 15rem;
+}
+.masthead .masthead-avatar {
+    width: 5rem;
+}
+.landing{
+    background-color: var(--light-violet);
+    min-height: calc(100vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column !important;
+}
+.landing h1{
+    font-weight: 900;
+}
+
+.btn{
+    background-color: var(--dark-green);
+    color: #fff;
+}
+.btn:hover{
+    color: var(--light-green);
+}
+.spinner {
+    padding-top: 75px;
+    color: var(--light-green);
+    font-size: 3rem;
+}
+.spinner h2{
+    color: #000;
+    font-size: 2rem;
+    font-weight: 700;
+    
+}
+.container p{
+    color: rgba(0,0,0,.5);
+    font-size: .9rem;
+}
+.main-tittle::after{
+    content: '';
+    width: 250px;
+    height: 3px;
+    margin-top: 10px;
+    background-color: var(--light-green);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
