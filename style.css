@@ -2,7 +2,7 @@
     --dark-violet: #240046;
     --dark-green: #283618;
     --light-violet: #3c096c;
-    --light-green: #70e000;
+    --light-green: #5cb701;
     --font-style: Verdana;
 }
 body{
@@ -48,13 +48,13 @@ body{
 }
 
 .landing img{
-
     vertical-align: baseline;
     width: 15rem;
 }
 .masthead .masthead-avatar {
     width: 5rem;
 }
+
 .landing{
     background-color: var(--light-violet);
     min-height: calc(100vh);
@@ -68,7 +68,7 @@ body{
 }
 
 .btn{
-    background-color: var(--dark-green);
+    background-color: var(--light-green);
     color: #fff;
 }
 .btn:hover{
